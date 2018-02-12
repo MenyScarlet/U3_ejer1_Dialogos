@@ -59,9 +59,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Contenido Spinner
+
         ArrayList<String> years = new ArrayList<String>();
         int thisYear = Calendar.getInstance().get(Calendar.YEAR);
-        for (int i = 1900; i <= thisYear; i++) { years.add(Integer.toString(i)); }
+        for (int i = 1980; i <= thisYear; i++) { years.add(Integer.toString(i)); }
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, years);
         spYear.setAdapter(adapter);
@@ -75,10 +76,24 @@ public class MainActivity extends AppCompatActivity {
 
             String nombre = etNombre.getText().toString();
             String year = spYear.getSelectedItem().toString();
+            int years = Integer.parseInt(year);
+            String estudios = tvEstudios.getText().toString();
 
-            if (){
+            if (nombre.equals("") || year.equals("") || estudios.equals("")){
+
+                //Dialogo debes rellenar todos los campos
+                FragmentManager fragmentManager = getFragmentManager();
+                DialogoDatos datos = new DialogoDatos();
+                datos.show(fragmentManager, "Aceptación Términos");
+
+            }else{
+
 
             }
+
+
+
+
 
 
 

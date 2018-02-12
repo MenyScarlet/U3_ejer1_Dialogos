@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/U3_ejer1_Dialogos.iml" filepath="$PROJECT_DIR$/.idea/U3_ejer1_Dialogos.iml" />
       <module fileurl="file://C:\Users\DIDACT\AndroidStudioProjects\U3_ejer1_Dialogos\U3_ejer1_Dialogos.iml" filepath="C:\Users\DIDACT\AndroidStudioProjects\U3_ejer1_Dialogos\U3_ejer1_Dialogos.iml" />
+      <module fileurl="file://C:\Users\Meny\AndroidStudioProjects\U3_ejer1_Dialogos\.idea\U3_ejer1_Dialogos.iml" filepath="C:\Users\Meny\AndroidStudioProjects\U3_ejer1_Dialogos\.idea\U3_ejer1_Dialogos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\DIDACT\AndroidStudioProjects\U3_ejer1_Dialogos\app\app.iml" filepath="C:\Users\DIDACT\AndroidStudioProjects\U3_ejer1_Dialogos\app\app.iml" />
+      <module fileurl="file://C:\Users\Meny\AndroidStudioProjects\U3_ejer1_Dialogos\app\app.iml" filepath="C:\Users\Meny\AndroidStudioProjects\U3_ejer1_Dialogos\app\app.iml" />
     </modules>
   </component>
 </project>
