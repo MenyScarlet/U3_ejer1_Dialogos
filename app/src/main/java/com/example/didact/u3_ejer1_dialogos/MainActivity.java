@@ -13,6 +13,9 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
 
     EditText etNombre;
@@ -55,6 +58,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Contenido Spinner
+        ArrayList<String> years = new ArrayList<String>();
+        int thisYear = Calendar.getInstance().get(Calendar.YEAR);
+        for (int i = 1900; i <= thisYear; i++) { years.add(Integer.toString(i)); }
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, years);
+        spYear.setAdapter(adapter);
 
 
     }//FIN onCreate
@@ -63,7 +73,14 @@ public class MainActivity extends AppCompatActivity {
 
         if (cbTerminos.isChecked()){
 
-            if ()
+            String nombre = etNombre.getText().toString();
+            String year = spYear.getSelectedItem().toString();
+
+            if (){
+
+            }
+
+
 
         }else{
 
@@ -76,11 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-        }
+
     }
-
-
-
 
 
 
