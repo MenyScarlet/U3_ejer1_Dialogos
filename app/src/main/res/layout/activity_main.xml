@@ -89,5 +89,6 @@
         android:id="@+id/btnComprobar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Comprobar" />
+        android:text="Comprobar"
+        android:onClick="clickComprobar"/>
 </LinearLayout>

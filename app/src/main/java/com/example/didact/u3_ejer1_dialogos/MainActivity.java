@@ -1,5 +1,6 @@
 package com.example.didact.u3_ejer1_dialogos;
 
+import android.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -55,7 +56,28 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
     }//FIN onCreate
+
+    public void clickComprobar (View view){
+
+        if (cbTerminos.isChecked()){
+
+            if ()
+
+        }else{
+
+            //Dialogo debes aceptar los terminos
+            FragmentManager fragmentManager = getFragmentManager();
+            DialogoTerminos terminos = new DialogoTerminos();
+            terminos.show(fragmentManager, "Aceptación Términos");
+
+
+
+            }
+
+        }
+    }
 
 
 
